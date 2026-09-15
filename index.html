@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forever Loving</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Soft floating hearts drift across this canvas in the background -->
+  <canvas id="hearts"></canvas>
+
+  <!-- The centerpiece: your photo, gently pulsing with rings around it -->
+  <div class="scene">
+    <div class="photo-wrap" id="photoWrap">
+      <div class="ring ring1"></div>
+      <div class="ring ring2"></div>
+      <div class="ring ring3"></div>
+      <div class="photo-frame">
+        <img src="loving.png" alt="A photo held with love">
+      </div>
+    </div>
+  </div>
+
+  <!-- The "how long you've been loving" counter -->
+  <div class="timer">
+    <div class="inner">
+      In love with her for <span class="seconds">0</span> seconds<br>
+      Current Status <span class="grade">Admirer</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
